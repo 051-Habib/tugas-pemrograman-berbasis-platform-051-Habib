@@ -113,13 +113,12 @@ Penjelasan: Method PATCH menerima pembaruan sebagian data. Field yang dikirimkan
   "json": null,
   "url": "[https://httpbin.org/delete](https://httpbin.org/delete)"
 }
-
 Penjelasan: Permintaan DELETE dieksekusi tanpa memerlukan data body. Field json bernilai null dan data berupa string kosong.
 
 ## Bukti Pengujian (Tangkap Layar Postman)
 
 ### 1. Bukti Pengujian GET
-![Screenshot GET](screenshot-get.png)
+![](./screenshot-postman-get.png)
 
 ### 2. Bukti Pengujian POST
-![Screenshot POST](screenshot-post.png)
+![](./screenshot-postman-post.png)
