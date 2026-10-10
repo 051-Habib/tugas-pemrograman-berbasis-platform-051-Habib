@@ -115,8 +115,10 @@ Penjelasan: Method PATCH menerima pembaruan sebagian data. Field yang dikirimkan
 }
 Penjelasan: Permintaan DELETE dieksekusi tanpa memerlukan data body. Field json bernilai null dan data berupa string kosong.
 
-
 ## Bukti Pengujian (Tangkap Layar Postman)
+
 ### 1. Bukti Pengujian GET
 ![Screenshot GET Postman](screenshot-get.png)
+
+### 2. Bukti Pengujian POST
 ![Screenshot POST Postman](screenshot-post.png)

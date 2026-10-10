@@ -13,11 +13,12 @@ Penulisan query menggunakan sintaks SQL secara langsung (menggunakan *prepared s
 SELECT * 
 FROM jadwal 
 WHERE id = ?;
+```
+Contoh implementasi pada Node.js (dengan library mysql2):
 
-# Contoh implementasi pada Node.js (dengan library mysql2):
 const [rows] = await db.execute('SELECT * FROM jadwal WHERE id = ?', [1]);
 
-B. ORM (Object-Relational Mapping)
+## B. ORM (Object-Relational Mapping)
 Penulisan operasi database menggunakan ORM Prisma berbasis method/objek JavaScript:
 
 const jadwal = await prisma.jadwal.findUnique({
@@ -26,8 +27,7 @@ const jadwal = await prisma.jadwal.findUnique({
   }
 });
 
-### C. Jawaban Pertanyaan
-
+## C. Jawaban Pertanyaan
 1. Apa perbedaan cara penulisan operasi database menggunakan SQL secara langsung dan ORM?
 - SQL Mentah: Ditulis menggunakan bahasa deklaratif SQL (Structured Query Language) dalam   bentuk string perintah database (SELECT, INSERT, UPDATE, DELETE).
 
@@ -61,6 +61,6 @@ const jadwal = await prisma.jadwal.findUnique({
 
 6. Bagaimana ORM membantu pengembang mengakses database? Kaitkan jawaban Anda dengan contoh kode yang telah Anda tulis.
 
-ORM menjembatani struktur tabel relasional database dengan objek pemrograman. Pengembang dapat mengelola data seolah-olah berinteraksi dengan objek JavaScript biasa.
+     ORM menjembatani struktur tabel relasional database dengan objek pemrograman. Pengembang dapat mengelola data seolah-olah berinteraksi dengan objek JavaScript biasa.
 
 - Kaitan dengan contoh kode: Pada contoh prisma.jadwal.findUnique({ where: { id: 1 } }), pengembang tidak perlu menghafal klausa SELECT * FROM jadwal WHERE id = 1 atau mengurus connection pool secara manual. ORM mentransformasikan panggilan fungsi tersebut menjadi query SQL yang aman, mengeksekusinya ke database, lalu mengembalikan hasilnya langsung dalam bentuk objek JavaScript siap pakai.
