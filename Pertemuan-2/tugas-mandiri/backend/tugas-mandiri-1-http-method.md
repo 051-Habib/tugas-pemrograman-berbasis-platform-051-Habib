@@ -118,7 +118,7 @@ Penjelasan: Permintaan DELETE dieksekusi tanpa memerlukan data body. Field json 
 ## Bukti Pengujian (Tangkap Layar Postman)
 
 ### 1. Bukti Pengujian GET
-![](./screenshot-postman-get.png)
+<img src="screenshot-postman-get.png" width="100%">
 
 ### 2. Bukti Pengujian POST
-![](./screenshot-postman-post.png)
+<img src="screenshot-postman-post.png" width="100%">
