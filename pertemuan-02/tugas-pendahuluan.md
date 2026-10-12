@@ -15,12 +15,14 @@ Struktur JSON:
 }
 
 
-### Penjelasan Field & Fungsinya:
+Penjelasan Field & Fungsinya:
+userId: Identitas unik milik pengguna...
 
-- userId: Identitas unik milik pengguna (penulis) yang membuat postingan tersebut.
-- id: Identitas unik (primary key) dari postingan itu sendiri.
-- title: Judul artikel atau postingan.
-- body: Konten atau isi teks dari postingan.
+id: Identitas unik dari postingan...
+
+title: Judul artikel...
+
+body: Konten dari postingan...
 
 ### b. Endpoint /users/1
 
