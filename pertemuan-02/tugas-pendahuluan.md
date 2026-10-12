@@ -2,8 +2,6 @@
 
 ### a. Endpoint /posts/1
 
-### a. Endpoint /posts/1
-
 Struktur JSON:
 
 ```json
@@ -14,15 +12,12 @@ Struktur JSON:
   "body": "quia et suscipit..."
 }
 
-
 Penjelasan Field & Fungsinya:
-userId: Identitas unik milik pengguna...
 
-id: Identitas unik dari postingan...
-
-title: Judul artikel...
-
-body: Konten dari postingan...
+- **userId**: Identitas unik milik pengguna (penulis) yang membuat postingan tersebut.
+- **id**: Identitas unik (primary key) dari postingan itu sendiri.
+- **title**: Judul artikel atau postingan.
+- **body**: Konten atau isi teks dari postingan.
 
 ### b. Endpoint /users/1
 
