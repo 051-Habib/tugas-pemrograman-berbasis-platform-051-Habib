@@ -18,6 +18,7 @@ Penjelasan Field & Fungsinya:
 - **id**: Identitas unik (primary key) dari postingan itu sendiri.
 - **title**: Judul artikel atau postingan.
 - **body**: Konten atau isi teks dari postingan.
+```
 
 ### b. Endpoint /users/1
 
