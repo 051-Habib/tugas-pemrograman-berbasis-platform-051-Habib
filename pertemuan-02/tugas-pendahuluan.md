@@ -11,7 +11,7 @@ Struktur JSON:
   "title": "sunt aut facere...",
   "body": "quia et suscipit..."
 }
-
+```
 Penjelasan Field & Fungsinya:
 
 - **userId**: Identitas unik milik pengguna (penulis) yang membuat postingan tersebut.
