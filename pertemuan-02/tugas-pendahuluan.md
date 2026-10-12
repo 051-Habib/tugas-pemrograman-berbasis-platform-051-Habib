@@ -3,7 +3,7 @@
 ### a. Endpoint /posts/1
 
   Struktur JSON:
-    
+  ```json 
     {
   "userId": 1,
   "id": 1,
