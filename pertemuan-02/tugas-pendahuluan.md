@@ -2,14 +2,18 @@
 
 ### a. Endpoint /posts/1
 
-  Struktur JSON:
-  ```json 
-    {
+### a. Endpoint /posts/1
+
+Struktur JSON:
+
+```json
+{
   "userId": 1,
   "id": 1,
-  "title": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
-  "body": "quia et suscipit\nsuscipit recusandae..."
+  "title": "sunt aut facere...",
+  "body": "quia et suscipit..."
 }
+
 
 ### Penjelasan Field & Fungsinya:
 
